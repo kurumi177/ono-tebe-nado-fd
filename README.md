@@ -1,1 +1,0 @@
-https://github.com/kurumi177/ono-tebe-nado-fd
