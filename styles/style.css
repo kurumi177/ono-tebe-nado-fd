@@ -40,11 +40,9 @@
 }
 
 .address {
-  justify-self: start;
   max-width: 240px;
   display: flex;
   flex-direction: column;
-  margin-left: 186px;
   font-family: "Raleway", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -54,10 +52,18 @@
   text-underline-offset: 4px;
 }
 
+.header__address {
+  justify-self: start;
+  margin-left: 186px;
+}
+
 .cover {
   background: url(../images/cover.jpg) no-repeat center / cover;
   position: relative;
-  max-height: 758px;
+  padding: 165px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
 }
 
 .overlay {
@@ -77,14 +83,14 @@
   font-size: 100px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
+  line-height: 115%;
   color: #ffffff;
-  padding: 165px 20px 0px 50px;
 }
 
 .aligned-text {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 
 .aligned-text_left {
@@ -93,10 +99,12 @@
 
 .aligned-text_center {
   text-align: center;
+  margin-left: 30px;
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -104,9 +112,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 80px 61px 52px;
-  margin-top: 105px;
-  gap: 107px;
+  gap: 109px;
 }
 
 .cover__description-text {
@@ -119,29 +125,28 @@
   word-spacing: 18px;
   flex-shrink: 0;
   z-index: 1;
-  margin-top: 2px;
 }
 
 .bet-button {
-  font-family: "Raleway", "Arial", sans-serif;
-  width: 256px;
-  height: 51px;
-  background-color: transparent;
-  border: 1px solid white;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 256px;
+  padding: 12px 32px;
   text-transform: uppercase;
   color: #ffffff;
+  font-family: "Raleway", "Arial", sans-serif;
+  height: 51px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-weight: 500;
+  font-size: 22px;
   flex-shrink: 0;
   z-index: 1;
-  margin-top: 2px;
-  margin-left: 2px;
 }
 
 .lots {
-  margin-top: 180px;
+  margin-top: 182px;
   width: 100%;
   padding: 0 23px;
   box-sizing: border-box;
@@ -309,9 +314,6 @@
 
 .footer__address {
   justify-self: start;
-  font-family: "Raleway", "Arial", sans-serif;
-  font-style: normal;
-  text-underline-offset: 4px;
 }
 
 .footer__menu {
